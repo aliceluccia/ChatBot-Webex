@@ -1,0 +1,79 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Para acesso ao sistema Deskbee, acesse o link.",
+            "wrap": true,
+            "size": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Escolha o login SSO (Single Sign On), e entre com seu e-mail e senha.",
+            "wrap": true,
+            "size": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Para reservar, clique em \"Reservar\" e \"Estação de Trabalho\". Será possivel escolher a data da reserva, o horário de ínicio e término, local (RJ, BH ou SP) e o andar a ser reservado.",
+            "wrap": true,
+            "size": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": "A visualização dos locais pode ser feita tanto por lista, quanto pela planta.",
+            "wrap": true,
+            "size": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Para acompanhar as reservas já feitas clique em \"Minhas Reservas\", você poderá visualizar tanto as do dia atual, quanto as dos dias subsequentes. Assim como fazer o cancelamento das reservas.",
+            "wrap": true,
+            "size": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Em \"Check in/out\" a leitura pode ser feita por QR Code ou manualmente, digitando o código que se encontra na mesa escolhida",
+            "wrap": true,
+            "size": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Em \"Localizar\" há possibilidade de fazer a pesquisa pelo nome do colaborador desejado.",
+            "wrap": true,
+            "size": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Você pode fazer a reserva de mesa num prazo de 7 dias.",
+            "wrap": true,
+            "size": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": " O check-in possui uma tolerância de 30 minutos.",
+            "wrap": true,
+            "size": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Caso ainda assim não consiga acesso ao Deskbee, entre em contato com o setor de T.I pelo e-mail tecnologia@cesconbarrieu.com.br",
+            "wrap": true,
+            "weight": "Bolder",
+            "size": "Medium"
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.OpenUrl",
+                    "title": "Acesse o Deskbee",
+                    "url": "https://cesconbarrieu.deskbee.app/login",
+                    "style": "positive"
+                }
+            ]
+        }
+    ]
+}

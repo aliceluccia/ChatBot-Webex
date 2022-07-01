@@ -1,0 +1,42 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Para redefinir a senha, siga o passo a passo que aparecerá assim que você clicar no link.",
+            "wrap": true,
+            "size": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Para a troca de senha, feche todas ferramentas corporativas (Outlook, Webex – inclusive no celular e Legaldesk) e faça o procedimento de “esquecer” a senha do Wi-Fi corporativo no celular.  ",
+            "wrap": true,
+            "size": "Medium",
+            "weight": "Bolder"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Lembrando que à preferência pela escolha de recebimento de código ou notificação pelo aplicativo Authenticator no celular.",
+            "wrap": true,
+            "size": "Medium",
+            "weight": "Bolder"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Caso ainda assim não consiga redefinir a senha, entre em contato com o setor de T.I pelo e-mail tecnologia@cesconbarrieu.com.br",
+            "wrap": true,
+            "size": "Medium",
+            "weight": "Bolder"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.OpenUrl",
+            "title": "Redefina a senha",
+            "style": "positive",
+            "url": "https://passwordreset.microsoftonline.com/passwordreset#!/"
+        }
+    ]
+}

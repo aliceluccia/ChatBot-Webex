@@ -1,0 +1,51 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Caso tenha trocado de senha recentemente ou ela tenha expirado, siga o passo a passo para redefinir a senha em \"Clique aqui e receba as instruções para redefinir a senha\"",
+            "wrap": true,
+            "size": "Medium",
+            "weight": "Bolder"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Para validação, a VPN precisa estar conectada a internet. Faça um teste pesquisando no navegador e entrando em um site confiável. Caso não carregue, valide também em outras redes como o 4G do celular. ",
+            "wrap": true,
+            "size": "Medium",
+            "weight": "Bolder"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Para acesso a VPN, clique no ícone que estará no canto inferior direito no \"mostrar ícones ocultos\".",
+            "wrap": true,
+            "size": "Medium"
+        },
+        {
+            "type": "Image",
+            "url": "http://store-images.microsoft.com/image/apps.26392.9007199266489612.fcb67e31-642f-4e5c-bf25-b2f443f12fa6.2625791a-f8b0-4764-8351-e47e81a1f062",
+            "size": "Small"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Valide se o endereço que aparece é o vpn.cesconbarrieu.com.br e clique em Connect.",
+            "wrap": true,
+            "size": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "text": "Será solicitado suas credencias de acesso, então preencha os campos Username e Password. Clique em Accept, aguarde a conexão ser concluída e aparecer o status.",
+            "size": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Caso ainda assim não consiga acesso a VPN, entre em contato com o setor de T.I pelo e-mail tecnologia@cesconbarrieu.com.br",
+            "wrap": true,
+            "size": "Medium",
+            "weight": "Bolder"
+        }
+    ]
+}

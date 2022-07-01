@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./senha-comando",
+        "./vpn-comando"
+    ]
+}

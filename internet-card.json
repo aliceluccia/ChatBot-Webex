@@ -1,0 +1,33 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2",
+    "body": [
+        
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "text": "O acesso do Wi-Fi aos colaboradores é feito na rede Cescon Barrieu, por meio de usuário de rede e senha.",
+            "size": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "text": "Caso tenha alterado a senha recentemente ou ela tenha expirado, siga o passo a passo para redefinir a senha em \"Clique aqui e receba as instruções para redefinir a senha\".",
+            "size": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "wrap": true,
+            "text": "Você pode tentar a conexão no Wi-Fi 5 vezes, na 6ª tentativa será bloqueado por excesso de tentativas.",
+            "size": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Caso ainda assim não consiga acesso ao WI-Fi, entre em contato com o setor de T.I pelo e-mail tecnologia@cesconbarrieu.com.br",
+            "wrap": true,
+            "size": "Medium",
+            "weight": "Bolder"
+        }
+    ]
+}

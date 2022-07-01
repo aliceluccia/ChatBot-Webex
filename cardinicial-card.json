@@ -1,0 +1,26 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Ola! Eu sou o Alan, em que posso ajudar?",
+            "wrap": true,
+            "size": "Medium",
+            "weight": "Bolder"
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Submit",
+                    "title": "Receba as instrucoes para redefinir a senha",
+                    "data": {
+                        "callback_keyworld": "Ola"
+                    }
+                }
+            ]
+        }
+    ]
+}
